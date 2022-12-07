@@ -85,6 +85,18 @@ make a list from above lists and iterate over them
 
 '''
 
+# numbers_1 = [1, 2, 3, 4, 5]
+# numbers_2 = [6, 7, 8, 9, 10]
+# numbers_3 = [11, 12, 13, 14]
+
+# new_numbers = [numbers_1, numbers_2, numbers_3]
+# print(new_numbers[0][0])
+# print(new_numbers[0][1])
+# print(new_numbers[0][2])
+# print(new_numbers[1][2])
+# print(new_numbers[3][2])
+
+
 # name = input('enter your name ')
 # family = input('enter your family ')
 # print('your name is', name, 'and your family is', family)
@@ -113,6 +125,24 @@ numbers = []
 3 + 4 + 6 + 10 = 23
 
 '''
+# numbers = []
+
+# n1 = int(input('enter first number:> '))
+# n2 = int(input('enter first number:> '))
+# n3 = int(input('enter first number:> '))
+# n4 = int(input('enter first number:> '))
+
+# numbers.append(n1)
+# numbers.append(n2)
+# numbers.append(n3)
+# numbers.append(n4)
+
+# print(numbers)
+
+# z = numbers[0] + numbers[1] + numbers[2] + numbers[3]
+# print('sum is: ', z)
+
+
 # how to delete item from list چطور از لیست حذف کنیم
 
 # x = ['a', 'b', 1, 'd']
@@ -124,11 +154,49 @@ numbers = []
 # x.remove('d')
 # print('my list after removing value "d"', x)
 
-numbers = [1, 2, 3, 4, 4, 3, 4, 2, 1]
-print('count of 4:', numbers.count(4))
+# numbers = [1, 2, 3, 4, 4, 3, 4, 2, 1]
+# print('count of 4:', numbers.count(4))
 
 # Exercise :
 '''
 با استفاده از دستور اینپوت 5 عدد را از ورودی دریافت نماید و در لیست ذخیره کند.
 در مر حله بعد عددی را از ورودی با اینپوت دریافت کند و تعداد تکرار آن عدد در لیست را نمایش دهدو
+'''
+
+
+# tuple
+
+# numbers = (1, 2, 3, 4)
+# print(numbers[0])
+# print(numbers[1])
+# print(numbers[2])
+# print(numbers[3])
+
+# print(numbers[1:3])
+# print(numbers[-1])
+# print(numbers[3])
+
+# numbers[0] = 10  # error
+# امکان تغییر دادن تاپل وجود ندارد
+
+# دیکشنری
+# dictionary
+
+favorites_sports = {
+    'ali': 'footbal',
+    'reza': 'basketball',
+    'tina': 'baseball'
+}
+
+print(favorites_sports['ali'])
+
+# exercise
+'''
+یک دیکشنری بساز که ورزش های مورد علاقه 6 نفر را ذخیره نماید.
+سپس وزرش مورد علاقه هر یک از نفرات را جداگانه نمایش بده
+'''
+
+# exercise:
+'''
+یک تاپل از عدد های 1 تا 10 بساز و سپس فقط عددهای زوج آن را نمایش بده
 '''
