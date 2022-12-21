@@ -182,13 +182,13 @@ numbers = []
 # دیکشنری
 # dictionary
 
-favorites_sports = {
-    'ali': 'footbal',
-    'reza': 'basketball',
-    'tina': 'baseball'
-}
+# favorites_sports = {
+#     'ali': 'footbal',
+#     'reza': 'basketball',
+#     'tina': 'baseball'
+# }
 
-print(favorites_sports['ali'])
+# print(favorites_sports['ali'])
 
 # exercise
 '''

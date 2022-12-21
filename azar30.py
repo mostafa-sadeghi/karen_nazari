@@ -1,0 +1,31 @@
+import turtle
+
+s = turtle.Screen()
+# s.register_shape("my", ((0, 0), (20, 20), (-20, 20)))
+# s.register_shape('watermelon.gif')
+s.bgcolor('orange')
+# s.bgpic('mario.png')
+p = turtle.Pen()
+
+p.pencolor('red')
+p.pensize(5)
+# p.shape('turtle')
+# p.shape('my')
+# p.shape('watermelon.gif')
+p.shape('circle')
+p.shapesize(2, 2, 26)
+# p.shapesize(outline=26)
+p.stamp()
+p.goto(100, 100)
+p.stamp()
+p.goto(200, 0)
+p.stamp()
+p.goto(0, 0)
+# p.fd(100)
+# p.right(120)
+# p.fd(100)
+# p.right(120)
+# p.fd(100)
+
+
+s.exitonclick()
