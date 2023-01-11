@@ -191,18 +191,18 @@
 # s.exitonclick()
 
 
-import turtle
+# import turtle
 
-s = turtle.Screen()
-s.bgcolor('black')
-p = turtle.Pen()
-p.pencolor('red')
-p.fillcolor('green')
-p.begin_fill()
-p.circle(20)
-p.end_fill()
+# s = turtle.Screen()
+# s.bgcolor('black')
+# p = turtle.Pen()
+# p.pencolor('red')
+# p.fillcolor('green')
+# p.begin_fill()
+# p.circle(20)
+# p.end_fill()
 
-s.exitonclick()
+# s.exitonclick()
 
 
 # exercise 1:

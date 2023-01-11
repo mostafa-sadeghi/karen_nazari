@@ -63,42 +63,44 @@
 # excercise 2 : با کمک ترتل و حلقه فور مثلث، مربع و پنج ضلعی بکش
 
 
-import turtle
+# import turtle
 
-s = turtle.Screen()
-s.setup(620, 620)
-s.bgcolor('black')
+# s = turtle.Screen()
+# s.setup(620, 620)
+# s.bgcolor('black')
 
-p = turtle.Pen()
-p.shape('turtle')
-p.pensize(4)
-p.speed('fastest')  # p.speed(10)
-p.pencolor('red')
-COLORS = ["red", "green", "blue", "cyan", "silver"]
-n = -1
-for ang in range(0, 360, 15):
-    n = n + 1
-    if n == 5:
-        n = 0
-    p.pencolor(COLORS[n])
-    p.seth(ang)
-    if ang <= 300:
-        p.fillcolor(COLORS[n])
-        p.begin_fill()
-        p.circle(100)
-        p.end_fill()
-    else:
-        # p.fillcolor(COLORS[n])
-        # p.begin_fill()
-        p.circle(100)
-        # p.end_fill()
+# p = turtle.Pen()
+# p.shape('turtle')
+# p.pensize(4)
+# p.speed('fastest')  # p.speed(10)
+# p.pencolor('red')
+# COLORS = ["red", "green", "blue", "cyan", "silver"]
+# n = -1
+# for ang in range(0, 360, 15):
+#     n = n + 1
+#     if n == 5:
+#         n = 0
+#     p.pencolor(COLORS[n])
+#     p.seth(ang)
+#     if ang <= 270:
+#         p.fillcolor(COLORS[n])
+#         p.begin_fill()
 
+#         p.circle(100)
+#         p.end_fill()
+#     else:
+#         # p.fillcolor(COLORS[n])
+#         # p.begin_fill()
 
-p.penup()
-p.setpos(100, 270)
-p.pendown()
-p.write("Nice picture", font=("", 22, "bold"))
-p.hideturtle()  # p.ht()
+#         p.circle(100)
+#         # p.end_fill()
 
 
-s.exitonclick()
+# p.penup()
+# p.setpos(100, 270)
+# p.pendown()
+# p.write("Nice picture", font=("", 22, "bold"))
+# p.hideturtle()  # p.ht()
+
+
+# s.exitonclick()
