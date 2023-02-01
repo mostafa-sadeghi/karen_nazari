@@ -3,13 +3,32 @@
 # for i in range(len(numbers)):
 #     numbers[i] = numbers[i] * 2
 # print(numbers)
+numbers = [1, 2, 3, 4]
+
+i = 0
+while i< len(numbers):
+    print(numbers[i])
+    i +=1
+
 
 
 # exercise 1: برنامه بالا رو با حلقه while  بنویس
 
-# name = 'karen'
+name = 'karen'
 # for n in name:
 #     print(n)
+
+# i = 0
+# while i < len(name):
+#     print(name[i])
+#     i += 1
+
+
+# i = 0
+# while i < len(name):
+#     print(name[i], end=' ')
+#     i += 1
+
 
 # exercise 2: برنامه بالا رو با حلقه while  بنویس
 
@@ -32,13 +51,13 @@
 
 #########################################################
 
-string = input("enter a name ")
+# string = input("enter a name ")
 # print(string[-1::-1])
 
 # for i in range(len(string)-1, -1, -1):
 #     print(string[i])
 
-i = len(string) - 1
-while i >= 0:
-    print(string[i])
-    i -= 1  # i = i -1
+# i = len(string) - 1
+# while i >= 0:
+#     print(string[i])
+#     i -= 1  # i = i -1

@@ -38,15 +38,17 @@
 # define a function    تعریف تابع
 
 
-def greet(name, family):
-    return f'Hello {name} {family}'
+# def greet(name, family):
+#     return f'Hello {name} {family}'
 
 
 # calling the function   صدازدن تابع
-name = input("enter a name> ")
-family = input("enter a family> ")
-result = greet(name, family)
-print(result)
+# name = input("enter a name> ")
+# family = input("enter a family> ")
+# result = greet(name, family)
+# print(result)
 
 
 # while loop
+
+
