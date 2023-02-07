@@ -46,6 +46,21 @@
 
 
 '''
+  *
+* *
+  *
+'''
+
+'''
+    *
+  * *
+* * *
+  * * 
+    *
+'''
+
+
+'''
       *
     * *
   * * *
@@ -54,14 +69,16 @@
     * *
       *
 '''
-m = 7
-j = 1
+
+
+m = int(input('enter how many stars do you want?'))
+j = 2
 i = 0
 while i < m:
     if i < m/2:
-        print(' ' * (m-2*i) + '* '*(i+1))
+        print(' ' * (m-2*i-1) + '* '*(i+1))
 
     else:
-        print(' ' * (i-j) + '* '*(m-i))
-        j -= 1
+        print(' ' * (j) + '* '*(m-i))
+        j += 2
     i += 1
